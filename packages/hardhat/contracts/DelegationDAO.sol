@@ -98,7 +98,7 @@ contract DelegationDAO is AccessControl {
         if (currentState == daoState.STAKING ) {
             // Sanity check
             if(!staking.is_delegator(address(this))){
-                 revert("The DAO is in an inconsistent state.");
+                 revert("The DAO is in an inconsistent state :(......... womp womp womp");
             }
             memberStakes[msg.sender] = memberStakes[msg.sender].add(msg.value);
             totalStake = totalStake.add(msg.value);
