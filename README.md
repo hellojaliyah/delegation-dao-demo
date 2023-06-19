@@ -50,3 +50,4 @@ yarn start
 💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
 📱 Open http://localhost:3000 to see the app
+# Polkadot-Hackathon-2023
